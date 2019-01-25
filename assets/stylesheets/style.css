@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+ min-width: 100%;
+}
+
+h1 {
+ text-align: center;
+ margin-bottom: 50px;
+}
+
+#checkbox-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#checkbox-container div {
+  margin-bottom: 10px;
+}
+
+#checkbox-container label {
+
+}
+
+#checkbox-container input {
+ float: right;
+
+}
