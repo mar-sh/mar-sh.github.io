@@ -46,13 +46,12 @@ span {
 	color: #2980b9;
 	letter-spacing: 1px;
   width: 100%;
-  font-weight: bold;
-	padding: 10px 10px 10px 20px;
+  font-weight: 500;
+	padding: 10px 10px 10px 0px;
 }
 
 #checkbox-container input {
  float: right;
- margin-right: 50px;
 }
 
 p {
