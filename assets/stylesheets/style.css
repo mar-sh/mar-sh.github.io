@@ -43,6 +43,7 @@ span:nth-child(2) {
 #checkbox-container div {
   margin-bottom: 10px;
   background-color: eae5e5;
+  padding-bottom: 10px;
   border-bottom: 0.1px solid white;
 }
 
@@ -55,8 +56,12 @@ span:nth-child(2) {
   padding: 10px 10px 10px 0px;
 }
 
-#checkbox-container input {
- float: right;
+input[type=checkbox] {
+  float:right;
+  transform: scale(1.5);
+  position: relative;
+  top: 5px;
+  right: 5px;
 }
 
 a{
@@ -76,6 +81,3 @@ p {
   color: black;
 }
 
-input[type=checkbox] {
-  transform: scale(1.5);
-}
