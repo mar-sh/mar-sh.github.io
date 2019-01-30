@@ -121,11 +121,11 @@ body {
   letter-spacing: 1px;
   font-size: 16px;
   line-height: 24px;
-  margin-block-end: 10px
+  margin-bottom: 10px
 }
 
 #about-box p span {
-  margin-inline-start: 50px;
+  margin-left: 50px;
 }
 
 /* Main */
