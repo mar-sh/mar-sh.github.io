@@ -74,7 +74,8 @@ body {
   border-top: 20px solid black;
   position: relative;
   top: 600px;
-  left: 655px;
+  left: 48.7%;
+  z-index: 19;
 }
 
 /* Home-callout */
