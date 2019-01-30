@@ -124,6 +124,10 @@ body {
   margin-block-end: 10px
 }
 
+#about-box p span {
+  margin-inline-start: 50px;
+}
+
 /* Main */
 #main {
   width: 100%;
