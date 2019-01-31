@@ -18,7 +18,7 @@ body {
 
 /* Header */
 #header {
-  height: 10%;
+  height: auto;
   width: 100%;
   background-color: black;
   position: fixed;
@@ -35,8 +35,8 @@ body {
   font-size: 20px;
   font-family: Roboto, sans-serif;
   letter-spacing: 5px;
-  margin: 0.5% 6.4%;
-  padding: 0.8%;
+  margin: 1% 8.2%;
+  padding: 1%;
 }
 
 #header li a {
@@ -57,13 +57,13 @@ body {
 
 /* Home */
 #home {
-  display: block;
-  height: 750px;
+  height: 1000px;
   width: 100%;
   background: url("../images/js.jpg");
   filter: grayscale(1);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: contain;
+
+  overflow: hidden;
 }
 
 .arrow-down {
@@ -73,7 +73,7 @@ body {
   border-right: 20px solid transparent;
   border-top: 20px solid black;
   position: relative;
-  top: 90vh;
+  top: 680px;
   left: 48.7%;
   z-index: 19;
 }
