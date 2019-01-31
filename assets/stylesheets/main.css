@@ -17,25 +17,53 @@ body {
 }
 
 /* Media Query for smaller res */
-@media  screen and (max-width: 1400) {
-  #header li {
-      display: inline-block;
-      color : white;
-      font-size: 20px;
-      font-family: Roboto, sans-serif;
-      letter-spacing: 5px;
-      margin: 0.5% 6.5%;
-      padding: 1%;
-    }
+@media all and (max-width: 1400px) {
+
+#header {
+  height: auto !important;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  z-index: 20;
+}
+
+#header nav {
+  float: left;
+}
+
+#header li{
+  display: inline-block;
+  color : white;
+  font-size: 20px;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 5px;
+  margin: 0.5% 5% !important;
+  padding: 0.5% !important;
+}
+
+#header li a {
+  color: white;
+  margin: 10px 100px !important;
+  text-align: center;
+  text-decoration: none;
+}
+
+#header li a:visited {
+  color: white;
+}
+
+#header li a:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
   
 
   #home {
-  height: 750;
+  height: 700px !important;
   width: 100%;
   background: url("../images/js.jpg");
   filter: grayscale(1);
-  background-size: cover;
-  overflow: hidden;
+  background-size: cover !important;
   }
   
   .arrow-down {
@@ -45,10 +73,11 @@ body {
   border-right: 20px solid transparent;
   border-top: 20px solid black;
   position: relative;
-  top: 600px;
+  top: 600px !important;
   left: 48.7%;
   z-index: 19;
   }
+
 }
 
 
