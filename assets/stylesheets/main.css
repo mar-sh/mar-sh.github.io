@@ -17,7 +17,7 @@ body {
 }
 
 /* Media Query for smaller res */
-@media only screen and (max-width: 1444px) {
+@media  screen and (max-width: 1400) {
   #header li {
       display: inline-block;
       color : white;
