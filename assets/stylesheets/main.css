@@ -51,7 +51,7 @@ body {
 }
 
 #banner-hero {
-  background: url("../images/js.jpg") 0 0 no-repeat / contain;
+  background: url("../images/js.jpg") 0 0 no-repeat / cover;
   padding-bottom: 56.25%; /* height/width x 100% so when it resizes the padding always follow the img */
   height: 0;
   text-align: center;
