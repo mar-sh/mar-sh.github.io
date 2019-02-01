@@ -1,5 +1,5 @@
 var checkboxValues = JSON.parse(localStorage.getItem('checkboxValues')) || {},
-    $checkboxes = $("#checkbox-container :checkbox");
+    $checkboxes = $("#main-container :checkbox");
 
 $checkboxes.on("change", function(){
   $checkboxes.each(function(){
@@ -13,3 +13,5 @@ $checkboxes.on("change", function(){
 $.each(checkboxValues, function(key, value) {
   $("#" + key).prop('checked', value);
 });
+
+console.log('hi');
