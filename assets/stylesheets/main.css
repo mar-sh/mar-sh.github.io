@@ -19,11 +19,13 @@ body {
   display: flex;
 }
 
-/* Try Viewport */
+/* Try Viewport */ 
 
 @media all and (max-width:800) {
- 
-}
+  *{
+    border: 1px solid red;
+  }
+} 
 
 /* Banner */
 .section-banner {
@@ -36,16 +38,17 @@ body {
   display: flex;
   justify-content: space-around;
   background-color: black;
+  padding: 2%;
 }
 
-#banner-header a{
-  margin: 10px;
-  padding: 20px;
+#banner-header a {
+  margin: 0.2%;
+  padding: 0.1%;
   color: white;
   text-decoration: none;
   font-family: Roboto;
   font-size: 20px;
-  letter-spacing: 5px;
+  letter-spacing: 0.5%;
 }
 
 #banner-hero {
@@ -72,12 +75,14 @@ body {
 }
 
 #about-avatar h3 {
-  margin: 20px;
+  margin: 5%;
+  width: 100%;
   font-family: Roboto;
-  letter-spacing: 2px;
+  letter-spacing: 1%;
   font-size: 30px;
   text-transform: uppercase;
   font-weight: 700;
+  text-align: center;
 }
 
 #about-avatar img{
@@ -92,7 +97,7 @@ body {
 }
 
 #about-text-box {
-  margin: 10px 25%;
+  margin: 5% 25%;
   padding: 1%;
 }
 
@@ -105,7 +110,7 @@ body {
 }
 
 #about-text-box span {
-  margin-left: 50px;
+  margin-left: 10%;
 }
 
 /* Main */
@@ -117,14 +122,14 @@ body {
 }
 
 #main {
-  margin: 20px;
+  margin: 2%;
 }
 
 #main > h3 {
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin-top: 5%;
+  margin-bottom: 5%;
   font-family: Roboto;
-  letter-spacing: 2px;
+  letter-spacing: 1%;
   font-size: 30px;
   text-transform: uppercase;
   font-weight: 700;
@@ -134,14 +139,14 @@ body {
 #main-container {
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px;
+  margin-bottom: 1%px;
 }
 
 #main-container div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 10px;
+  margin: 1%;
 }
 
 #main-container a{
@@ -156,7 +161,7 @@ body {
 }
 
 input[type="checkbox"] {
-  margin-left: 25px;
+  margin-left: 5%x;
   transform: scale(1.4);
 }
 
@@ -196,7 +201,7 @@ footer div {
   flex-flow: row wrap;
   justify-content: space-around;
   padding: 2px;
-  margin: 10px 0;
+  margin: 1% 0;
 }
 
 footer h3, footer h3 a, footer h3 a:hover, footer h3 a:visited {
