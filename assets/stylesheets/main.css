@@ -8,6 +8,7 @@
 html {
   width: 100%;
   height: 100%;
+  padding: auto;
 }
 
 body {
@@ -22,9 +23,7 @@ body {
 /* Try Viewport */
 
 @media all and (max-width:800) {
-  #banner-hero {
-    height: 30vh;
-  }
+ 
 }
 
 /* Banner */
